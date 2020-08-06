@@ -22,7 +22,7 @@ public class ShowVMPoolTest {
 
 		ExtendedKubernetesClient client = AbstractTest.getClient();
 		boolean successful = client.virtualMachinePools()
-				.showPool("88145631c61a4a64ac5f08b33942d396", getPool(), "123");
+				.showPool("da49e44d9db04954add9064b1fd848eb", getPool(), "123");
 		System.out.println(successful);
 	}
 
